@@ -1,0 +1,13 @@
+/* Nav styles */
+
+
+nav {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+}

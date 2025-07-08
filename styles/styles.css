@@ -14,7 +14,9 @@
 }
 
 /* Shared styles */
-
+#header-container {
+    margin-bottom: 130px;
+}
 .text-primary {
     color: #FD6E0A;
 }

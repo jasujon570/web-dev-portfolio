@@ -18,7 +18,7 @@ main {
     margin: 0 auto;
 }
 /* Shared styles */
-#about, #skills {
+#about, #skills, #resume {
     margin: 130px 0;
 }
 #header {
@@ -180,3 +180,42 @@ nav li a {
     margin: 30px auto;
     line-height: 30px;
 }
+
+
+/* Resume section styles */
+
+.resume-container {
+    display: flex;
+    margin-top: 130px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    gap: 24px;
+}
+.resume-column-title {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.experience-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+.experience-sub-title {
+    font-size: 20px;
+    font-weight:600;
+    color: #757575;
+    margin: 10px 0 20px 0;
+}
+
+.experience-description {
+    line-height: 28px;
+    font-size: 16px;
+    color: #757575;
+}
+
+hr {
+    border: 1px solid #D1D1D1;
+    margin: 30px auto;
+}
+
